@@ -1,4 +1,4 @@
-//MS. Error on line 11
+//MS. Bug on line 11
 def remove_duplicates(arr):
     arr.sort()
     unique_arr = []
