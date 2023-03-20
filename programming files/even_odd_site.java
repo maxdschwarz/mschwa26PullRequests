@@ -21,7 +21,7 @@ public class even_odd_site {
         String line;
         int num = line;
         while ((line = reader.readLine()) != null) {
-            System.out.println(line);
+            System.out.println(num);
         }
         reader.close();
     }
