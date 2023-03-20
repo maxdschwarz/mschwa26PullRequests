@@ -8,7 +8,7 @@ def remove_duplicates(arr):
             unique_arr.append(arr[i])
         else:
             removed_elements.append(arr[i])
-     unique_arr, removed_elements
+     return unique_arr, removed_elements
 
 # Test the function
 arr = [1, 2, 2, 3, 4, 4, 5]
