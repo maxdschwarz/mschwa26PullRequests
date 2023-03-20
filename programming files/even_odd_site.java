@@ -1,4 +1,4 @@
-
+BC
 
 import java.io.*;
 
@@ -19,6 +19,7 @@ public class even_odd_site {
         file.close();
         BufferedReader reader = new BufferedReader(new FileReader("numbers.html"));
         String line;
+        int num = line;
         while ((line = reader.readLine()) != null) {
             System.out.println(line);
         }
