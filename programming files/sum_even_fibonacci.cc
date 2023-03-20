@@ -1,10 +1,11 @@
 #include <iostream>
-
+// CF
+// Sum even starts at 1 and b is less than 5 
 int main()
 {
     int a = 0, b = 1;
-    int sum_even = 0;
-    while (b < 4000000) {
+    int sum_even = 1;
+    while (b < 5) {
         if (b % 2 == 0) {
             sum_even += b;
         }
