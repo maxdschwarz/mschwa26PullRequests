@@ -1,3 +1,5 @@
+//MS. Bug on line 18. 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +15,7 @@ public class remove_duplicates {
                 removedElements.add(arr.get(i));
             }
         }
-        return uniqueArr;
+        uniqueArr; 
     }
 
     public static void main(String[] args) {
